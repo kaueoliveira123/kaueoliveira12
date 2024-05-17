@@ -1,0 +1,26 @@
+function setup() {
+  createCanvas (600,400);
+  trilha.loop();
+}
+//posiçao da Bolinha
+let xBolinha = 300;
+let yBolinha = 200;
+let diametro = 15;
+
+//movimento da Bolinha
+let velocidadeXBolinha = 5;
+let velocidadeYBolinha = 5;
+
+//variaveis da Minha Raquete
+let xRaquete = 5;
+let yRaquete = 150;
+let comprimentoRaquete = 10;
+let alturaRaquete = 90;
+
+//variaveis Oponente
+let xRaqueteOponente = 585;
+let yRaqueteOponente = 150;
+let velocidadeYOponente;
+ 
+//pontos
+let meusPontos = 0
